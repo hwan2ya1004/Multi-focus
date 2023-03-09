@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>a lens price tag</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="style.css" />
+		<style type="text/css">
+    .ritz .waffle a {
+        color: inherit;
+    }
+	.ritz .waffle .s11 {
+				border-bottom: 1px SOLID #000000;
+				border-right: 1px SOLID #000000;
+				background-color: #cfe2f3;
+				font-family: 'docs-docs-Roboto', Arial;
+				font-size: 10pt;
+	}
+	.ritz .waffle .s11{
+		font-size: 10pt;
+		border-bottom: 1px SOLID #000000;
+        border-right: 1px SOLID #000000;
+	}
+	.ritz .waffle .s12{
+		font-size: 10pt;
+		border-bottom: 1px SOLID #000000;
+        border-right: 1px SOLID #000000;
+	}
+    .ritz .waffle .s7 {
+        border-bottom: 1px SOLID #000000;
+        border-right: 1px SOLID #000000;
+        background-color: #a4c2f4;
+        text-align: center;
+        color: #000000;
+        font-family: 'docs-Roboto', Arial;
+        font-size: 10pt;
+        vertical-align: bottom;
+        white-space: nowrap;
+        direction: ltr;
+        padding: 2px 3px 2px 3px;
+    }
+
+    .ritz .waffle .s9 {
+        border-bottom: 1px SOLID #000000;
+        border-right: 1px SOLID #000000;
+        background-color: #ffffff;
+        text-align: center;
+        color: #000000;
+        font-family: 'docs-docs-Roboto', Arial;
+        font-size: 10pt;
+        vertical-align: bottom;
+        white-space: nowrap;
+        direction: ltr;
+        padding: 2px 3px 2px 3px;
+    }
+
+    .ritz .waffle .s3 {
+        border-bottom: 1px SOLID #000000;
+        border-right: 1px SOLID #000000;
+        background-color: #cfe2f3;
+        text-align: center;
+        color: #000000;
+        font-family: 'docs-Roboto', Arial;
+        font-size: 10pt;
+        vertical-align: bottom;
+        white-space: nowrap;
+        direction: ltr;
+        padding: 2px 3px 2px 3px;
+    }
+
+    .ritz .waffle .s5 {
+        border-bottom: 1px SOLID #000000;
+        border-right: 1px SOLID #000000;
+        background-color: #ffffff;
+        text-align: left;
+        color: #000000;
+        font-family: 'Arial';
+        font-size: 10pt;
+        vertical-align: bottom;
+        white-space: nowrap;
+        direction: ltr;
+        padding: 2px 3px 2px 3px;
+    }
+
+    .ritz .waffle .s0 {
+        border-right: 1px SOLID #000000;
+        background-color: #ffffff;
+    }
+
+    .ritz .waffle .s2 {
+        border-bottom: 1px SOLID #000000;
+        border-right: 1px SOLID #000000;
+        background-color: #4285f4;
+        text-align: center;
+        color: #ffffff;
+        font-family: 'docs-Roboto', Arial;
+        font-size: 10pt;
+        vertical-align: bottom;
+        white-space: nowrap;
+        direction: ltr;
+        padding: 2px 3px 2px 3px;
+    }
+
+    .ritz .waffle .s8 {
+        border-bottom: 1px SOLID #000000;
+        border-right: 1px SOLID #000000;
+        background-color: #ffffff;
+        text-align: left;
+        color: #000000;
+        font-family: 'docs-Roboto', Arial;
+        font-size: 10pt;
+        vertical-align: bottom;
+        white-space: nowrap;
+        direction: ltr;
+        padding: 2px 3px 2px 3px;
+    }
+
+    .ritz .waffle .s10 {
+        border-bottom: 1px SOLID #000000;
+        border-right: 1px SOLID #000000;
+        background-color: #ffffff;
+        text-align: center;
+        color: #000000;
+        font-family: 'Arial';
+        font-size: 10pt;
+        vertical-align: bottom;
+        white-space: nowrap;
+        direction: ltr;
+        padding: 2px 3px 2px 3px;
+    }
+
+    .ritz .waffle .s4 {
+        border-bottom: 1px SOLID #000000;
+        border-right: 1px SOLID #000000;
+        background-color: #ffffff;
+        text-align: center;
+        color: #000000;
+        font-family: 'docs-Roboto', Arial;
+        font-size: 10pt;
+        vertical-align: bottom;
+        white-space: nowrap;
+        direction: ltr;
+        padding: 2px 3px 2px 3px;
+    }
+
+    .ritz .waffle .s1 {
+        border-bottom: 1px SOLID #000000;
+        border-right: 1px SOLID #000000;
+        background-color: #4a86e8;
+        text-align: center;
+        color: #ffffff;
+        font-family: 'docs-Roboto', Arial;
+        font-size: 10pt;
+        vertical-align: bottom;
+        white-space: nowrap;
+        direction: ltr;
+        padding: 2px 3px 2px 3px;
+    }
+
+    .ritz .waffle .s6 {
+        border-bottom: 1px SOLID #000000;
+        border-right: 1px SOLID #000000;
+        background-color: #ffffff;
+        text-align: right;
+        color: #000000;
+        font-family: 'docs-Roboto', Arial;
+        font-size: 10pt;
+        vertical-align: bottom;
+        white-space: nowrap;
+        direction: ltr;
+        padding: 2px 3px 2px 3px;
+    }
+		
+
+			.button {
+				display: inline-flex;
+				padding: 5px 15px;
+				font-size: 15px;
+				cursor: pointer;
+				text-align: center;
+				text-decoration: none;
+				outline: none;
+				color: #fff;
+				background-color: #4caf50;
+				border: none;
+				border-radius: 10px;
+				box-shadow: 0 9px #999;
+				margin: 10px;
+			}
+
+			.button:hover {
+				background-color: #eb0000;
+			}
+
+			.button:active {
+				background-color: #eb0000;
+				box-shadow: 0 5px #666;
+				transform: translateY(4px);
+			}
+      
+p,
+h1 {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	border-bottom:1px solid black;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.main {
+  
+}
+
+header,
+section,
+footer {
+    
+    padding: 8px;
+    margin: 2px;
+	text-align: center;
+   
+    
+
+}
+
+header {
+    border: 4px solid;
+    border-color: #000069;
+    position:-webkit-sticky;
+	position:sticky;
+    top:0;
+    background-color: #F9FFFF;
+    border-radius: 20px;
+
+}
+
+header input {
+	border:2px solid #aaa;
+	border-radius:4px;
+	margin: 8px 0;
+	outline: none;
+	padding:8px;
+	box-sizing: border-box;
+	transition:.3
+}
+header input[type=text]:focus{
+	border-color:dodgerBlue;
+	box-shadow:0 0 8px 0 dodgetBlue;
+}
+
+
+
+header select {
+	width: 150px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 12px 13px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+	margin: 10px;
+	
+
+	
+}
+
+header select .pl:focus{
+    border: 1px solid #9B51E0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: 3px solid #F8E4FF;
+    border-radius: 10px;
+}
+
+Resources1× 0.5× 0.25×Rerun
+			
+}
+
+
+
+
+
+section {
+    border-color: yellow;
+
+}
+img {
+    width: 80px;
+    display: block; margin: 0px auto;
+   
+}
+
+
+footer {
+    background-color: #dcdcdc;
+    text-align: right;
+}
+
+@media (max-width: 480px) {
+    #section {
+        width: auto;
+    }
+
+
+      
+		</style>
+    
+	</head>
+
+	<body>
+		<div class="main">
+			<!--해당 요소가 Grid Container가 됨-->
+			<header>
+				<!--3개의 select 박스의 값을 더하는 스크립트 끝-->
+				<!--아래와 같이 폼을 구성하세요-->
+				<form name="mypay" method="POST">
+					<select size="1" name="select1" onChange="calculatePay()">
+						<option value="0">안경렌즈 선택</option>
+						<option value="35">1.50</option>
+						<option value="45">1.60</option>
+						<option value="55">1.67</option>
+					</select>
+					<select size="1" name="select2" onChange="calculatePay()">
+						<option value="0" selected>코팅 선택</option>
+						<option value="0">SEE+UV(기본)</option>
+						<option value="5">PURE BLUE UV</option>
+					</select>
+					<select size="1" name="select3" onChange="calculatePay()">
+						<option value="0" selected>변색 선택</option>
+						<option value="15">시그니쳐 GEN8</option>
+						<option value="20">엑스트라 액티브</option>
+						
+					
+					</select>
+					<select size="1" name="select4" onChange="calculatePay()">
+						<option value="0" selected>착색 선택</option>
+						<option value="3">OK</option>
+					</select>
+					
+					
+					<br /><br />
+				
+				
+				합계 <input type=text name=pay size=15 value= > 만원 &nbsp &nbsp  
+						<input class="button" type="reset" value="AC" /><br /><br />
+			
+				
+				</form>
+				<script language="JavaScript">
+
+					function calculatePay() {
+
+
+					<!-- 2021년 04월 확인 크롬 정상 동작 -->
+
+
+					var price1 = (new Function ('return '+ document.mypay.select1.value))();   // eval 보안 취약점으로  대체
+
+					var price2 = eval(document.mypay.select2.value);
+
+					var price3 = eval(document.mypay.select3.value);
+
+					var price4 = eval(document.mypay.select4.value);
+
+						
+
+					document.mypay.pay.value = price1 + price2 + price3 + price4 ;
+
+					}
+					
+					
+				</script>
+			</header>
+
+			<section>
+				<div class="ritz grid-container" dir="ltr">
+					<table class="waffle" cellspacing="0" cellpadding="0">
+						<thead>
+							<tr>
+								<th></th>
+								<th></th>
+								<th id="0C1" style="width:20%;" class="column-headers-background"></th>
+								<th id="0C2" style="width:20%;" class="column-headers-background"></th>
+								<th id="0C3" style="width:40%;" class="column-headers-background"></th>
+								<th id="0C4" style="width:20%;" class="column-headers-background"></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr style="height: 20px">
+								<th id="0R0" style="height: 20px;" class="row-headers-background">
+									<div class="row-header-wrapper" style="line-height: 20px"></div>
+								</th>
+								<td class="s0"></td>
+								<td class="s1">품명</td>
+								<td class="s1">굴절률</td>
+								<td class="s1">마크 </td>
+								<td class="s2">가격</td>
+							</tr>
+							<tr style="height: 20px">
+								<th id="0R1" style="height: 20px;" class="row-headers-background">
+									<div class="row-header-wrapper" style="line-height: 20px"></div>
+								</th>
+								<td class="s0"></td>
+								<td class="s11" rowspan="3">바리락스 <br>컴포트 맥스</td>
+								<td class="s4">1.67</td>
+								<td class="s5"><img src="https://firebasestorage.googleapis.com/v0/b/sparta-myhoneytip-kim-349e2.appspot.com/o/Multi_focus%2FVARILUX%2Fcomport_max%2Fcomfort_max67.jpg?alt=media&token=685da3e4-59db-401a-b6e9-4a94ea0c1e75"></td>
+								<td class="s6">₩550,000</td>
+							</tr>
+							<tr style="height: 20px">
+								<th id="0R2" style="height: 20px;" class="row-headers-background">
+									<div class="row-header-wrapper" style="line-height: 20px"></div>
+								</th>
+								<td class="s0"></td>
+								<td class="s4">1.60</td>
+								<td class="s5"><img src="https://firebasestorage.googleapis.com/v0/b/sparta-myhoneytip-kim-349e2.appspot.com/o/Multi_focus%2FVARILUX%2Fcomport_max%2Fcomfort_max60.jpg?alt=media&token=bd4cea29-3ee1-48de-8555-dedb33148024"></td>
+								<td class="s6">₩450,000</td>
+							</tr>
+							<tr style="height: 20px">
+								<th id="0R3" style="height: 20px;" class="row-headers-background">
+									<div class="row-header-wrapper" style="line-height: 20px"></div>
+								</th>
+								<td class="s0"></td>
+								<td class="s4">1.50</td>
+								<td class="s5"><img src="https://firebasestorage.googleapis.com/v0/b/sparta-myhoneytip-kim-349e2.appspot.com/o/Multi_focus%2FVARILUX%2Fcomport_max%2Fcomfort_max50.jpg?alt=media&token=a40a9b1b-0f9d-4866-89fb-1df3cd34e394"></td>
+								<td class="s6">₩350,000</td>
+							</tr>
+							<tr style="height: 20px">
+								<th id="0R4" style="height: 20px;" class="row-headers-background">
+									<div class="row-header-wrapper" style="line-height: 20px"></div>
+								</th>
+								<td class="s0"></td>
+								<td class="s1" colspan="4">옵션</td>
+							</tr>
+							<tr style="height: 20px">
+								<th id="0R5" style="height: 20px;" class="row-headers-background">
+									<div class="row-header-wrapper" style="line-height: 20px"></div>
+								</th>
+								<td class="s0"></td>
+								<td class="s7" colspan="2">항목</td>
+								<td class="s7">범위</td>
+								<td class="s7">옵션 가격</td>
+							</tr>
+							<tr style="height: 20px">
+								<th id="0R6" style="height: 20px;" class="row-headers-background">
+									<div class="row-header-wrapper" style="line-height: 20px"></div>
+								</th>
+								<td class="s0"></td>
+								<td class="s11" rowspan="2">코팅</td>
+								<td class="s4">SEE+UV</td>
+								<td class="s4">ALL</td>
+								<td class="s4">기본</td>
+							</tr>
+							<tr style="height: 20px">
+								<th id="0R7" style="height: 20px;" class="row-headers-background">
+									<div class="row-header-wrapper" style="line-height: 20px"></div>
+								</th>
+								<td class="s0"></td>
+								<td class="s4">PURE BLUE UV</td>
+								<td class="s8">1.50 제외</td>
+								<td class="s6">₩50,000</td>
+							</tr>
+							<tr style="height: 20px">
+								<th id="0R8" style="height: 20px;" class="row-headers-background">
+									<div class="row-header-wrapper" style="line-height: 20px"></div>
+								</th>
+								<td class="s0"></td>
+								<td class="s11" rowspan="2">트랜지션<br>(변색)</td>
+								<td class="s9">시그니쳐 GEN8</td>
+								<td class="s4">ALL</td>
+								<td class="s6">₩150,000</td>
+							</tr>
+							<tr style="height: 20px">
+								<th id="0R9" style="height: 20px;" class="row-headers-background">
+									<div class="row-header-wrapper" style="line-height: 20px"></div>
+								</th>
+								<td class="s0"></td>
+								<td class="s4">엑스트라 액티브</td>
+								<td class="s4">ALL</td>
+								<td class="s6">₩200,000</td>
+							</tr>
+							<tr style="height: 20px">
+								<th id="0R10" style="height: 20px;" class="row-headers-background">
+									<div class="row-header-wrapper" style="line-height: 20px"></div>
+								</th>
+								<td class="s0"></td>
+								<td class="s3">착색</td>
+								<td class="s5"></td>
+								<td class="s4">ALL </td>
+								<td class="s6">₩30,000</td>
+							</tr>
+							<tr style="height: 20px">
+								<th id="0R11" style="height: 20px;" class="row-headers-background">
+									<div class="row-header-wrapper" style="line-height: 20px"></div>
+								</th>
+								<td class="s0"></td>
+								<td class="s10">누진대 (mm)</td>
+								<td class="s10" colspan="3">11 (Short) / 14 (Regular)</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
+
+			<tr></tr>
+			<div class="ritz grid-container">
+				<table class="waffle" cellspacing="0" cellpadding="0">
+					<footer>
+							<p>
+								varilux 2023
+							</p>
+							<p>
+								Seohee Research Institute
+							</p>
+							<p>
+								ver.1.0 (2023.03)
+							</p>
+					</footer>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>
